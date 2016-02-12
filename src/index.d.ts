@@ -1,4 +1,4 @@
-declare function gravatar (email: string, options?: gravatar.Options, addProtocol?: boolean): string;
+export function url (email: string, options?: gravatar.Options, addProtocol?: boolean): string;
 
 declare namespace gravatar {
   export interface Options {
@@ -12,5 +12,3 @@ declare namespace gravatar {
     forcedefault?: string;
   }
 }
-
-export = gravatar;
