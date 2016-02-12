@@ -1,0 +1,2 @@
+# npm-gravatar
+Typings for
